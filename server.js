@@ -18,7 +18,7 @@ app.use(function(req, res, next) {
 MongoClient.connect(db.url, (err, database) => {
     if (err) return console.log(err);
     
-    dba = database.db("doctorset-collection");
+    dba = database.db("doctorset");
     require('./app/routes')(app, dba);
     app.listen(port, () => {
         console.log('We are live on ' + port);
