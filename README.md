@@ -1,4 +1,4 @@
-# node-js-api
+# doctor-api
 
 <pre>
 
@@ -12,4 +12,3 @@ npm start
 </pre>
 
 
-You can check the demo: https://suitsupply-application.herokuapp.com

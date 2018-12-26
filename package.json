@@ -1,5 +1,5 @@
 {
-    "name": "node-js-api",
+    "name": "doctor-api",
     "version": "1.0.0",
     "description": "NodeJS Blog Api",
     "main": "server.js",
