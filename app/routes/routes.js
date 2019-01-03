@@ -9,7 +9,8 @@ module.exports = function(app, db) {
     const appointmentObject = {
       relatedCustomerId: req.body.relatedCustomerId,
       date: req.body.date,
-      notes: req.body.notes
+      notes: req.body.notes,
+      relatedCustomerFullName: req.body.relatedCustomerFullName
     };
 
     db.collection("appointment").insert(appointmentObject, (err, result) => {
@@ -71,7 +72,8 @@ module.exports = function(app, db) {
     const appointmentObject = {
       relatedCustomerId: req.body.relatedCustomerId,
       date: req.body.date,
-      notes: req.body.notes
+      notes: req.body.notes,
+      relatedCustomerFullName: req.body.relatedCustomerFullName
     };
 
     db.collection("appointment").update(details, appointmentObject, (err, result) => {
