@@ -9,7 +9,6 @@ module.exports = function(app, db) {
     const appointmentObject = {
       relatedCustomerId: req.body.relatedCustomerId,
       date: req.body.date,
-      time: req.body.time,
       notes: req.body.notes
     };
 
@@ -72,7 +71,6 @@ module.exports = function(app, db) {
     const appointmentObject = {
       relatedCustomerId: req.body.relatedCustomerId,
       date: req.body.date,
-      time: req.body.time,
       notes: req.body.notes
     };
 
